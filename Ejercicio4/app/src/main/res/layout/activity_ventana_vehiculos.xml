@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VentanaVehiculos">
+
+    <LinearLayout
+        android:id="@+id/coches_layout"
+        android:layout_width="412dp"
+        android:layout_height="223dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674">
+
+        <TextView
+            android:id="@+id/l_coche"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Coches Disponibles"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/cb_coche1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Audi A4 - 1500€" />
+
+        <CheckBox
+            android:id="@+id/cb_coche2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Audi A3 - 1300€" />
+
+        <CheckBox
+            android:id="@+id/cb_coche3"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Audi A2 - 1000€" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/motos_layout"
+        android:layout_width="411dp"
+        android:layout_height="242dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105">
+
+        <TextView
+            android:id="@+id/l_moto"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:text="Motos Disponibles"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/cb_moto1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Triumph Tiger 900 - 1000€" />
+
+        <CheckBox
+            android:id="@+id/cb_moto2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Triumph Tiger 800 - 800€" />
+
+        <CheckBox
+            android:id="@+id/cb_moto3"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Triumph Tiger 700 - 500€" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+</androidx.constraintlayout.widget.ConstraintLayout>
