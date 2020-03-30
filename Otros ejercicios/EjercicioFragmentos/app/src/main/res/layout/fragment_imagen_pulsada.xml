@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ImagenPulsada"
+    android:layout_width="300dp"
+    android:layout_height="300dp">
+
+    <ImageButton
+        android:id="@+id/imagen"
+        android:backgroundTint="@color/bgImg"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/ib_info"
+        android:scaleType="fitCenter"
+        android:src="@drawable/anti_covid_1"
+        tools:src="@drawable/anti_covid_1" />
+
+</FrameLayout>
